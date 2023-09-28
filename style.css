@@ -1,0 +1,208 @@
+
+body{
+background-image: url(images/back.jfif);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0;
+}
+
+.navbar a{
+  float: right;
+  /* display: block; */
+  color: #f2f2f2;
+  /* text-align: center; */
+  padding: 30px 16px;
+  text-decoration: none;
+
+}
+.navbar h2{
+  color: #f2f2f2;
+  
+}
+.navbar h2,a{
+  display: inline-flex;
+}
+
+
+
+.container a:hover{
+  background-color:aqua;
+  color: black;
+}
+
+
+/* .flex-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 10vh;
+  margin: 0;
+}
+
+.flex-content {
+  text-align: center;
+  border-radius: 100px;
+
+} */
+
+.home {
+  padding: 50px; /* Add some padding inside the section */
+}
+
+.flex-container {
+  /* Use flexbox to arrange elements */
+  align-items: center; /* Vertically center items */
+  justify-content: center; /* Horizontally center items */
+  text-align: center; /* Align text center within the flex container */
+}
+
+.img img {
+  max-width: 300px; /* Make sure the image doesn't exceed its container */
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 300px;
+  gap: 0%;
+}
+
+.btn a {
+  text-decoration: none; /* Remove default underline from links */
+  padding-bottom: 0%;
+
+}
+
+.btn button {
+  margin: 10px; /* Add some spacing between buttons */
+  padding: 10px 20px; /* Add padding to buttons for better appearance */
+  font-size: 16px; /* Adjust font size */
+  border: none; /* Remove border from buttons */
+  background-color: rgb(45, 110, 110); /* Set background color for buttons */
+  color: black; /* Set text color */
+  cursor: pointer; /* Add a pointer cursor on hover */
+  border-radius: 5px; /* Add rounded corners */
+}
+
+.btn button:hover {
+  background-color: aqua; /* Change background color on hover */
+}
+
+footer {
+  background-color: #155049;
+  text-align: center;
+  color: #f2f2f2;
+  padding: 10px;
+  top: 20%;
+  gap: 20px;
+  
+ 
+}
+
+.about-me {
+  
+  max-width: 800px;
+  margin: 0 auto;
+ 
+}
+
+h2 {
+  color: #0f0f0f;
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+img {
+  border-radius: 50%;
+  max-width: 200px;
+  margin: 20px 0;
+  text-align: center;
+}
+
+p {
+  font-size: 1.1em;
+  color: #0f0f0f;
+  line-height: 1.6;
+
+}
+
+picture{
+  align-items: center;
+  float: left;
+
+}
+
+.contact-form {
+  max-width: 15000px;
+  padding: 40px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form h2 {
+  text-align: center;
+  margin-bottom: 10px;
+  align-items: baseline;
+
+
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #00ff77;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.Picture {
+  
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.flex-item{
+  flex: 1;
+}
+
+.image{
+  width: 300px;
+}
+
+.social-icons {
+  display: flex;
+}
+
+.icon {
+  width: 50px;
+  height: 50px;
+  margin: 10px;
+  background-size: cover;
+}
+
+.facebook {
+  background-image: url('facebook-icon.png');
+}
+
+.twitter {
+  background-image: url('twitter-icon.png');
+}
+/* Add more CSS rules for other icons */
